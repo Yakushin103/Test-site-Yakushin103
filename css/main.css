@@ -15351,6 +15351,7 @@ header {
   .exchange__title h4 {
     font-family: 'Raleway-ExtraBold';
     font-size: 30px;
+    -webkit-text-fill-color: #fff;
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1); }
@@ -15389,6 +15390,7 @@ header {
 
 .exchange__price h6 {
   font-family: 'Raleway-ExtraBold';
+  -webkit-text-fill-color: #fff;
   font-size: 20px;
   text-transform: uppercase; }
   .exchange__price h6 span {
