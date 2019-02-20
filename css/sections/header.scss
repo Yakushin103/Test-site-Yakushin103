@@ -1,8 +1,27 @@
-
-
 header{
   width: 100%;
   height: 100vh;
+
+  h1{
+    font-family: 'Raleway-ExtraBold';
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-transform: uppercase;
+    @include laptop{
+      font-size: 30px;
+    }
+  }
+  h5{
+    font-family: "Lato-Black";
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    @include laptop{
+      font-size: 10px;
+    }
+  }
 }
 
 .carousel,
@@ -29,9 +48,18 @@ header{
 }
 
 .carousel-control-next:hover{
-  background: linear-gradient( 90deg, #e07627, #d8be15 30%, #535353 20%, #535353);
+  background: linear-gradient( 90deg, #e07627, #d8be15 40px, #535353 40px, #535353);
   justify-content: flex-start;
   padding-left: 10px;
+}
+
+.line{
+  width: 40px;
+  height: 1px;
+  margin-bottom: 25px;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(90deg, #e07627, #d8be15);
+  border-image-slice: 1;
 }
 
 .btn_download{
@@ -40,9 +68,21 @@ header{
 }
 
 .btn_header{
+  margin-right: 20px;
   width: 160px;
   border: 2px solid #e07627;
   transition: 0.5s;
+  text-transform: capitalize;
+  font-family: "Lato-Bold";
+  font-size: 14px;
+  @include laptop{
+    font-size: 10px;
+    width: 100px;
+  }
+
+  &:last-child{
+    margin-right: 0;
+  }
 
   &:hover{
     border: 2px solid #e07627;
@@ -53,10 +93,9 @@ header{
   height: 60%;
   bottom: 50px;
 
-  & span{
-    width: 50px;
-    height: 1px;
-    border-bottom: 1px solid #ccc;
+  @include laptop{
+    height: 50%;
+    bottom: 50px;
   }
 }
 
@@ -72,6 +111,7 @@ header{
 .currency ul{
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
   background: #222;
   box-sizing: border-box;
@@ -80,13 +120,26 @@ header{
 .currency ul li{
   background: none;
   border: none;
+  font-family: "Lato-Regular";
   color: #878788;
   border-radius: none;
   font-size: 14px;
+  @include desktop{
+    &:last-child{
+      display: none;
+    }
+  }
+  @include laptop{
+    font-size: 10px;
+    &:nth-child(5){
+      display: none;
+    }
+  }
 
   &:first-child{
     background: linear-gradient(45deg, #e07627, #d8be15);
     color: #fff;
+    font-family: "Lato-Bold";
     &:before {
       content: '';
 

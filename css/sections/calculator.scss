@@ -7,6 +7,9 @@
 
   form{
     @include laptop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 30px;
       margin-bottom: 30px;
     }
@@ -22,24 +25,6 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-
-  h2{
-    font-size: 30px;
-    font-family: "Raleway-ExtraBold";
-    text-transform: capitalize;
-    background: linear-gradient(90deg, #e07627, #d8be15);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
-    @include laptop{
-      font-size: 20px;
-    }
-  }
-  p{
-    @include laptop{
-      font-size: 10px;
-    }
-  }
 }
 
 .calculator__input{
@@ -60,6 +45,10 @@
 
 .calculator input{
   border-right: none;
+  font-size: 14px;
+  @include laptop{
+    font-size: 10px;
+  }
 }
 
 .calculator input::placeholder{
@@ -72,9 +61,12 @@
 
 .calculator select,
 .calculator select:focus{
-  font-family: 'Lato';
-  font-weight: bold;
+  font-family: 'Lato-Bold';
+  font-size: 14px;
   background: linear-gradient(90deg, #e07627, #d8be15);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @include laptop{
+    font-size: 10px;
+  }
 }

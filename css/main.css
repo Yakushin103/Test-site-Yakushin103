@@ -6407,170 +6407,170 @@ readers do not read off random characters that represent icons */
   font-style: normal; }
 
 @font-face {
-  font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Black.ttf") format("truetype");
-  font-weight: black;
+  font-family: 'Lato-Black';
+  src: url("../Fonts/Lato/Lato-Black.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
+  src: url("../Fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
   font-weight: black;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: 'Lato-Bold';
+  src: url("../Fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
+  src: url("../Fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Hairline.ttf") format("truetype");
+  src: url("../Fonts/Lato/Lato-Hairline.ttf") format("truetype");
   font-weight: hairline;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-HairlineItalic.ttf") format("truetype");
+  font-family: 'Lato-HairlineItalic';
+  src: url("../Fonts/Lato/Lato-HairlineItalic.ttf") format("truetype");
   font-weight: hairline;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Italic.ttf") format("truetype");
+  font-family: 'Lato-Italic';
+  src: url("../Fonts/Lato/Lato-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Light.ttf") format("truetype");
+  src: url("../Fonts/Lato/Lato-Light.ttf") format("truetype");
   font-weight: light;
   font-style: normal; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-LightItalic.ttf") format("truetype");
+  src: url("../Fonts/Lato/Lato-LightItalic.ttf") format("truetype");
   font-weight: light;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Lato';
-  src: url("/Fonts/Lato/Lato-Regular.ttf") format("truetype");
-  font-weight: regular;
+  font-family: 'Lato-Regular';
+  src: url("../Fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Black.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-Black.ttf") format("truetype");
   font-weight: black;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-BlackItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-BlackItalic.ttf") format("truetype");
   font-weight: black;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: 'Raleway-Bold';
+  src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-BoldItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway-ExtraBold';
-  src: url("/Fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-ExtraBoldItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-ExtraBoldItalic.ttf") format("truetype");
   font-weight: extrabold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-ExtraLight.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-ExtraLight.ttf") format("truetype");
   font-weight: extralight;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-ExtraBoldLight.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-ExtraBoldLight.ttf") format("truetype");
   font-weight: extralight;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Italic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Light.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-Light.ttf") format("truetype");
   font-weight: light;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-LightItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-LightItalic.ttf") format("truetype");
   font-weight: light;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-Medium.ttf") format("truetype");
   font-weight: medium;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-MediumItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-MediumItalic.ttf") format("truetype");
   font-weight: medium;
   font-style: italic; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-Regular.ttf") format("truetype");
   font-weight: regular;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
-  font-weight: semiBold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-SemiBoldItalic.ttf") format("truetype");
-  font-weight: semiBold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-Thin.ttf") format("truetype");
+  font-family: 'Raleway-SemiBold';
+  src: url("../Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/Fonts/Raleway/Raleway-ThinItalic.ttf") format("truetype");
+  src: url("../Fonts/Raleway/Raleway-SemiBoldItalic.ttf") format("truetype");
+  font-weight: semiBold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../Fonts/Raleway/Raleway-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../Fonts/Raleway/Raleway-ThinItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
@@ -14636,6 +14636,46 @@ td,
 th {
   padding: 0; }
 
+html, body {
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  min-width: 400px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+p {
+  font-family: 'Lato-Regular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff; }
+  @media screen and (max-width: 992px) {
+    p {
+      font-size: 10px; } }
+
+h2, h4, h6 {
+  font-size: 30px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
+  background: -webkit-linear-gradient(left, #e07627, #d8be15);
+  background: -o-linear-gradient(left, #e07627, #d8be15);
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 992px) {
+    h2, h4, h6 {
+      font-size: 20px; } }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
 @-webkit-keyframes slide_left {
   0% {
     opacity: 0;
@@ -14828,8 +14868,7 @@ th {
       text-align: center; } }
   .nav__left a, .nav__right a {
     font-size: 14px;
-    font-family: "Lato";
-    font-weight: regular;
+    font-family: "Lato-Regular";
     color: #8f8f8f;
     text-transform: uppercase;
     margin: 0 10px;
@@ -14866,11 +14905,9 @@ th {
 
 .nav__main {
   height: 100px;
-  background: #111111;
-  margin: auto auto; }
+  background: #111111; }
   .nav__main .row {
     height: 100%;
-    padding: 0 10px;
     margin: 0 auto;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -14953,6 +14990,27 @@ th {
 header {
   width: 100%;
   height: 100vh; }
+  header h1 {
+    font-family: 'Raleway-ExtraBold';
+    background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
+    background: -webkit-linear-gradient(left, #e07627, #d8be15);
+    background: -o-linear-gradient(left, #e07627, #d8be15);
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-transform: uppercase; }
+    @media screen and (max-width: 992px) {
+      header h1 {
+        font-size: 30px; } }
+  header h5 {
+    font-family: "Lato-Black";
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+    @media screen and (max-width: 992px) {
+      header h5 {
+        font-size: 10px; } }
 
 .carousel,
 .carousel-inner,
@@ -14981,35 +15039,56 @@ header {
     width: 130px; }
 
 .carousel-control-next:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), color-stop(30%, #d8be15), color-stop(20%, #535353), to(#535353));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15 30%, #535353 20%, #535353);
-  background: -o-linear-gradient(left, #e07627, #d8be15 30%, #535353 20%, #535353);
-  background: linear-gradient(90deg, #e07627, #d8be15 30%, #535353 20%, #535353);
+  background: -webkit-linear-gradient(left, #e07627, #d8be15 40px, #535353 40px, #535353);
+  background: -o-linear-gradient(left, #e07627, #d8be15 40px, #535353 40px, #535353);
+  background: linear-gradient(90deg, #e07627, #d8be15 40px, #535353 40px, #535353);
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   padding-left: 10px; }
+
+.line {
+  width: 40px;
+  height: 1px;
+  margin-bottom: 25px;
+  border-top: 1px solid transparent;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
+  -webkit-border-image: -webkit-linear-gradient(left, #e07627, #d8be15);
+  -o-border-image: -o-linear-gradient(left, #e07627, #d8be15);
+  border-image: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
+  border-image: linear-gradient(90deg, #e07627, #d8be15);
+  border-image-slice: 1; }
 
 .btn_download {
   background: transparent;
   border: 2px solid #e07627; }
 
 .btn_header {
+  margin-right: 20px;
   width: 160px;
   border: 2px solid #e07627;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  text-transform: capitalize;
+  font-family: "Lato-Bold";
+  font-size: 14px; }
+  @media screen and (max-width: 992px) {
+    .btn_header {
+      font-size: 10px;
+      width: 100px; } }
+  .btn_header:last-child {
+    margin-right: 0; }
   .btn_header:hover {
     border: 2px solid #e07627; }
 
 .carousel-caption {
   height: 60%;
   bottom: 50px; }
-  .carousel-caption span {
-    width: 50px;
-    height: 1px;
-    border-bottom: 1px solid #ccc; }
+  @media screen and (max-width: 992px) {
+    .carousel-caption {
+      height: 50%;
+      bottom: 50px; } }
 
 .currency {
   width: 100%;
@@ -15023,6 +15102,9 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -15034,14 +15116,24 @@ header {
 .currency ul li {
   background: none;
   border: none;
+  font-family: "Lato-Regular";
   color: #878788;
   border-radius: none;
   font-size: 14px; }
+  @media screen and (max-width: 1200px) {
+    .currency ul li:last-child {
+      display: none; } }
+  @media screen and (max-width: 992px) {
+    .currency ul li {
+      font-size: 10px; }
+      .currency ul li:nth-child(5) {
+        display: none; } }
   .currency ul li:first-child {
     background: -webkit-linear-gradient(45deg, #e07627, #d8be15);
     background: -o-linear-gradient(45deg, #e07627, #d8be15);
     background: linear-gradient(45deg, #e07627, #d8be15);
-    color: #fff; }
+    color: #fff;
+    font-family: "Lato-Bold"; }
     .currency ul li:first-child:before {
       content: '';
       position: absolute;
@@ -15057,22 +15149,22 @@ header {
   font-size: 14px;
   color: #fff; }
   .advantage .row {
-    width: calc(100% - 20px);
+    width: 100%;
     padding: 10px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
   @media screen and (max-width: 992px) {
     .advantage {
       font-size: 10px; } }
 
 .card {
   width: calc(20% - 10px);
-  margin-right: 10px;
+  margin-left: 10px;
   border: 1px solid #1b1b1b;
   background: transparent; }
-  .card:last-child {
-    margin-right: 0; }
+  .card:first-child {
+    margin-left: 0; }
   @media screen and (max-width: 992px) {
     .card {
       width: 30%;
@@ -15089,7 +15181,7 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 40px;
+  padding: 40px 30px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: 1s;
@@ -15102,6 +15194,7 @@ header {
     .card-body {
       padding: 10px; } }
   .card-body h4 {
+    font-family: 'Raleway-Bold';
     font-size: 16px;
     background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
     background: -webkit-linear-gradient(left, #e07627, #d8be15);
@@ -15114,6 +15207,8 @@ header {
     @media screen and (max-width: 992px) {
       .card-body h4 {
         font-size: 12px; } }
+  .card-body p {
+    font-family: 'Lato-Regular'; }
 
 .card-body:hover {
   background: -webkit-gradient(linear, left bottom, left top, from(#e07627), to(#d8be15));
@@ -15155,6 +15250,9 @@ header {
       .buy h3 {
         font-size: 20px; } }
   .buy h4 {
+    font-family: 'Lato-Italic';
+    font-weight: normal;
+    font-style: italic;
     font-size: 16px;
     margin-bottom: 25px; }
     @media screen and (max-width: 992px) {
@@ -15162,18 +15260,19 @@ header {
         font-size: 12px; } }
   .buy .btn {
     text-transform: capitalize;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    border: 2px solid transparent; }
 
 .line {
   width: 40px;
   height: 1px;
   margin-bottom: 25px;
   border-top: 1px solid transparent;
-  -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  -webkit-border-image: -webkit-linear-gradient(left, #e07627, #d8be15);
-  -o-border-image: -o-linear-gradient(left, #e07627, #d8be15);
-  border-image: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  border-image: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(7%, #e07627), color-stop(10%, transparent), color-stop(#e07627), to(#d8be15));
+  -webkit-border-image: -webkit-linear-gradient(left, #e07627 7%, transparent 10%, #e07627, #d8be15);
+  -o-border-image: -o-linear-gradient(left, #e07627 7%, transparent 10%, #e07627, #d8be15);
+  border-image: -webkit-gradient(linear, left top, right top, color-stop(7%, #e07627), color-stop(10%, transparent), color-stop(#e07627), to(#d8be15));
+  border-image: linear-gradient(90deg, #e07627 7%, transparent 10%, #e07627, #d8be15);
   border-image-slice: 1; }
 
 .number__vertical {
@@ -15194,6 +15293,7 @@ header {
     top: 10px; }
 
 .buy__number h3 {
+  font-family: 'Raleway-SemiBold';
   font-size: 16px;
   margin-bottom: 13px; }
 
@@ -15203,11 +15303,7 @@ header {
 
 .exchange {
   width: 100%;
-  background: #181818;
-  color: #fff;
-  font-size: 14px; }
-  .exchange .row {
-    margin: 0; }
+  background: #181818; }
   .exchange ul {
     width: 100%;
     -webkit-box-orient: horizontal;
@@ -15245,7 +15341,6 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-left: 30px;
   width: 100%;
   background: -webkit-linear-gradient(45deg, #e07627, #d8be15);
   background: -o-linear-gradient(45deg, #e07627, #d8be15);
@@ -15253,6 +15348,15 @@ header {
   -webkit-transform: scale(1, 1.5);
   -ms-transform: scale(1, 1.5);
   transform: scale(1, 1.5); }
+  .exchange__title h4 {
+    font-family: 'Raleway-ExtraBold';
+    font-size: 30px;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); }
+    @media screen and (max-width: 992px) {
+      .exchange__title h4 {
+        font-size: 20px; } }
   @media screen and (max-width: 992px) {
     .exchange__title {
       padding: 0; } }
@@ -15263,15 +15367,16 @@ header {
     bottom: 0;
     border-bottom: 100px solid transparent;
     border-left: 50px solid #d8be15; }
+    @media screen and (max-width: 992px) {
+      .exchange__title:before {
+        border: none; } }
 
 .line_white {
   margin: 0;
   background: #fff; }
 
 .exchange__price p {
-  font-family: "Raleway";
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Raleway-Bold';
   margin-bottom: 0;
   font-size: 10px;
   background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
@@ -15283,11 +15388,14 @@ header {
   text-transform: uppercase; }
 
 .exchange__price h6 {
+  font-family: 'Raleway-ExtraBold';
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold; }
+  text-transform: uppercase; }
   .exchange__price h6 span {
-    font-weight: normal; }
+    font-family: 'Raleway-SemiBold'; }
+  @media screen and (max-width: 992px) {
+    .exchange__price h6 {
+      font-size: 14px; } }
 
 .calculator {
   background: #111;
@@ -15297,6 +15405,16 @@ header {
   font-size: 14px; }
   @media screen and (max-width: 992px) {
     .calculator form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-top: 30px;
       margin-bottom: 30px; } }
   .calculator img {
@@ -15314,23 +15432,6 @@ header {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px; }
-  .calculator__title h2 {
-    font-size: 30px;
-    font-family: "Raleway-ExtraBold";
-    text-transform: capitalize;
-    background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-    background: -webkit-linear-gradient(left, #e07627, #d8be15);
-    background: -o-linear-gradient(left, #e07627, #d8be15);
-    background: linear-gradient(90deg, #e07627, #d8be15);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 20px; }
-    @media screen and (max-width: 992px) {
-      .calculator__title h2 {
-        font-size: 20px; } }
-  @media screen and (max-width: 992px) {
-    .calculator__title p {
-      font-size: 10px; } }
 
 .calculator__input {
   margin-bottom: 20px; }
@@ -15346,7 +15447,11 @@ header {
     background: transparent; }
 
 .calculator input {
-  border-right: none; }
+  border-right: none;
+  font-size: 14px; }
+  @media screen and (max-width: 992px) {
+    .calculator input {
+      font-size: 10px; } }
 
 .calculator input::-webkit-input-placeholder {
   color: #fff; }
@@ -15370,43 +15475,26 @@ header {
 
 .calculator select,
 .calculator select:focus {
-  font-family: 'Lato';
-  font-weight: bold;
+  font-family: 'Lato-Bold';
+  font-size: 14px;
   background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
   background: -webkit-linear-gradient(left, #e07627, #d8be15);
   background: -o-linear-gradient(left, #e07627, #d8be15);
   background: linear-gradient(90deg, #e07627, #d8be15);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+  @media screen and (max-width: 992px) {
+    .calculator select,
+    .calculator select:focus {
+      font-size: 10px; } }
 
 .comment {
   width: 100%;
   background: #181818;
-  padding: 100px 0;
-  font-size: 14px;
-  color: #fff; }
+  padding: 100px 0; }
   @media screen and (max-width: 992px) {
     .comment {
-      padding: 50px 0;
-      font-size: 10px; } }
-
-.comment h2,
-.comment__text h4 {
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px; }
-  @media screen and (max-width: 992px) {
-    .comment h2,
-    .comment__text h4 {
-      font-size: 20px;
-      margin-bottom: 10px; } }
+      padding: 50px 0; } }
 
 .comment__link a {
   padding-right: 10px; }
@@ -15438,9 +15526,7 @@ header {
 
 .comment__text p {
   font-size: 18px;
-  font-family: 'Lato';
-  font-weight: hairline;
-  font-style: italic; }
+  font-family: 'Lato-HairlineItalic'; }
   @media screen and (max-width: 992px) {
     .comment__text p {
       font-size: 16px; } }
@@ -15457,8 +15543,7 @@ header {
     margin-right: 20px; }
   .comment__pic p {
     font-size: 14px;
-    font-weight: regular;
-    font-style: normal; }
+    font-family: 'Lato-Regular'; }
     .comment__pic p a {
       background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
       background: -webkit-linear-gradient(left, #e07627, #d8be15);
@@ -15501,7 +15586,7 @@ header {
       left: 160px; } }
   @media screen and (max-width: 768px) {
     .comment .carousel-control-prev {
-      left: 320px; } }
+      left: 260px; } }
   @media screen and (max-width: 480px) {
     .comment .carousel-control-prev {
       left: 160px; } }
@@ -15509,9 +15594,7 @@ header {
 .works {
   width: 100%;
   padding-top: 100px;
-  background: #111;
-  color: #fff;
-  font-size: 14px; }
+  background: #111; }
   .works .col-8 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -15527,22 +15610,6 @@ header {
     .works {
       font-size: 10px;
       padding-top: 50px; } }
-
-.works h2 {
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px; }
-  @media screen and (max-width: 992px) {
-    .works h2 {
-      font-size: 20px;
-      margin-bottom: 10px; } }
 
 .works__pic {
   margin-top: 30px;
@@ -15576,9 +15643,10 @@ header {
   .works__link img {
     margin-bottom: 15px; }
   .works__link h4 {
-    font-family: "Raleway";
-    font-weight: bold;
+    font-family: "Raleway-Bold";
     font-size: 18px;
+    background: none;
+    -webkit-text-fill-color: #fff;
     text-transform: capitalize; }
     @media screen and (max-width: 992px) {
       .works__link h4 {
@@ -15675,7 +15743,6 @@ header {
   .wallet__content .line {
     margin-top: 20px; }
   .wallet__content p {
-    font-size: 14px;
     color: #f4f4f4; }
   .wallet__content i {
     font-size: 40px;
@@ -15684,20 +15751,6 @@ header {
   .wallet__content button {
     margin-top: 30px;
     text-transform: capitalize; }
-
-.wallet__content h4 {
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .wallet__content h4 {
-      font-size: 20px; } }
 
 .ring__bottom {
   position: absolute;
@@ -15791,6 +15844,9 @@ header {
   -webkit-transform: scale(1, 1.5);
   -ms-transform: scale(1, 1.5);
   transform: scale(1, 1.5); }
+  .exchange__title_left h4 {
+    color: #fff;
+    -webkit-text-fill-color: #fff; }
   @media screen and (max-width: 992px) {
     .exchange__title_left {
       padding: 0; } }
@@ -15801,36 +15857,19 @@ header {
     bottom: 0;
     border-bottom: 100px solid transparent;
     border-right: 50px solid #e07627; }
+  @media screen and (max-width: 992px) {
+    .exchange__title_left {
+      border: none; } }
 
 .expert {
   padding: 100px 0;
   background: #111; }
-
-.expert h2,
-.expert h4 {
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .expert h2,
-    .expert h4 {
-      font-size: 20px; } }
 
 .expert h4 {
   font-size: 26px; }
   @media screen and (max-width: 992px) {
     .expert h4 {
       font-size: 20px; } }
-
-.expert p {
-  font-size: 14px;
-  color: #fff; }
 
 .expert_title {
   display: -webkit-box;
@@ -15868,9 +15907,7 @@ header {
   background: -o-linear-gradient(45deg, #e07627, #d8be15);
   background: linear-gradient(45deg, #e07627, #d8be15); }
   .expert__card__hover:hover h4 {
-    background: #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    -webkit-text-fill-color: #fff; }
   .expert__card__hover:hover .line {
     border-top: 1px solid #fff;
     -webkit-border-image: none;
@@ -15914,13 +15951,10 @@ header {
 .question {
   width: 100%;
   background: #323232;
-  padding: 100px 0;
-  color: #fff;
-  font-size: 14px; }
+  padding: 100px 0; }
   @media screen and (max-width: 992px) {
     .question {
-      padding: 50px 0;
-      font-size: 10px; } }
+      padding: 50px 0; } }
 
 .question .col-md-6 {
   -webkit-box-flex: 0;
@@ -15933,21 +15967,6 @@ header {
       -ms-flex: 0 0 calc(100% - 30px);
       flex: 0 0 calc(100% - 30px);
       margin: 30px 15px; } }
-
-.question h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .question h2 {
-      font-size: 20px; } }
 
 .input-group-text {
   background: #1b1b1b;
@@ -15989,7 +16008,8 @@ header {
   border: 2px solid #5b5b5b;
   border-bottom: 2px solid #5b5b5b !important;
   background: #3a3a3a;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-left: 10px; }
   .question .card:last-child {
     margin-bottom: 0; }
 
@@ -16006,6 +16026,8 @@ header {
 .card-header a {
   width: 100%;
   height: 100%;
+  font-family: 'Raleway-SemiBold';
+  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16017,6 +16039,9 @@ header {
   align-items: center;
   color: #fff;
   text-transform: capitalize; }
+  @media screen and (max-width: 992px) {
+    .card-header a {
+      font-size: 10px; } }
   .card-header a:hover {
     color: #fff; }
   .card-header a:focus {
@@ -16031,26 +16056,7 @@ header {
     .prices {
       padding: 50px 0; } }
   .prices p {
-    font-size: 14px;
     color: #6a6a6a; }
-    @media screen and (max-width: 992px) {
-      .prices p {
-        font-size: 10px; } }
-
-.prices h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .prices h2 {
-      font-size: 20px; } }
 
 .prices__title {
   width: 100%;
@@ -16066,7 +16072,14 @@ header {
   align-items: center;
   text-align: center; }
 
+table {
+  font-size: 14px; }
+  @media screen and (max-width: 992px) {
+    table {
+      font-size: 10px; } }
+
 thead {
+  font-family: 'Lato-Bold';
   background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
   background: -webkit-linear-gradient(left, #e07627, #d8be15);
   background: -o-linear-gradient(left, #e07627, #d8be15);
@@ -16088,28 +16101,10 @@ tbody img {
 .news {
   width: 100%;
   background: #111;
-  padding: 100px 0;
-  color: #fff; }
+  padding: 100px 0; }
   @media screen and (max-width: 992px) {
     .news {
       padding: 50px 0; } }
-
-.news h2,
-.news__card__content h6 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .news h2,
-    .news__card__content h6 {
-      font-size: 20px; } }
 
 .news .carousel-control-prev,
 .news .carousel-control-next {
@@ -16137,8 +16132,12 @@ tbody img {
 .news .carousel-control-prev {
   left: 85%;
   top: -10%; }
+  @media screen and (max-width: 992px) {
+    .news .carousel-control-prev {
+      left: 60%; } }
 
 .news__card {
+  height: 100%;
   width: calc(33% - 30px);
   margin: 0 15px;
   display: -webkit-box;
@@ -16190,11 +16189,6 @@ tbody img {
   @media screen and (max-width: 992px) {
     .news__card__content {
       padding: 20px; } }
-  .news__card__content p {
-    font-size: 14px; }
-    @media screen and (max-width: 992px) {
-      .news__card__content p {
-        font-size: 10px; } }
 
 .news__card__content h6 {
   font-size: 18px; }
@@ -16266,8 +16260,8 @@ tbody img {
   -ms-flex-align: center;
   align-items: center; }
   .news__data p {
+    font-family: 'Lato-Black';
     font-size: 18px;
-    font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     padding: 0; }
@@ -16300,7 +16294,10 @@ tbody img {
   -ms-transform: scale(1, 1.5);
   transform: scale(1, 1.5); }
   .prize__title h4 {
-    color: #fff; }
+    -webkit-text-fill-color: #fff;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); }
   .prize__title:before {
     content: '';
     position: absolute;
@@ -16365,27 +16362,6 @@ tbody img {
   @media screen and (max-width: 992px) {
     .partners {
       padding: 50px 0; } }
-  .partners p {
-    color: #fff;
-    font-size: 14px; }
-    @media screen and (max-width: 992px) {
-      .partners p {
-        font-size: 10px; } }
-
-.partners h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  @media screen and (max-width: 992px) {
-    .partners h2 {
-      font-size: 20px; } }
 
 .partners__title {
   display: -webkit-box;
@@ -16459,12 +16435,8 @@ tbody img {
   .contact__text img {
     margin-bottom: 30px; }
   .contact__text p {
-    font-size: 14px;
     color: #747474;
     margin-bottom: 30px; }
-    @media screen and (max-width: 992px) {
-      .contact__text p {
-        font-size: 10px; } }
 
 .contact__text a {
   display: -webkit-box;
@@ -16488,12 +16460,6 @@ tbody img {
   -webkit-text-fill-color: transparent; }
 
 .contact__text a h6 {
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-size: 14px; }
   @media screen and (max-width: 992px) {
@@ -16533,15 +16499,7 @@ tbody img {
 
 .contact h4 {
   font-size: 24px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: -webkit-gradient(linear, left top, right top, from(#e07627), to(#d8be15));
-  background: -webkit-linear-gradient(left, #e07627, #d8be15);
-  background: -o-linear-gradient(left, #e07627, #d8be15);
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  margin-bottom: 20px; }
   @media screen and (max-width: 992px) {
     .contact h4 {
       font-size: 20px; } }
@@ -16600,9 +16558,12 @@ tbody img {
   .contact__link a:hover {
     color: #fff;
     text-decoration: none; }
+    .contact__link a:hover p {
+      color: #fff; }
   .contact__link a p {
     text-transform: capitalize;
-    margin: 0; }
+    margin: 0;
+    color: #747474; }
   .contact__link a i {
     margin-right: 10px; }
 
@@ -16610,12 +16571,8 @@ footer {
   width: 100%;
   background: #141414; }
   footer p {
-    font-size: 14px;
     color: #797979;
     margin-bottom: 0; }
-    @media screen and (max-width: 992px) {
-      footer p {
-        font-size: 10px; } }
 
 footer .col-md-3,
 footer .col-md-6 {
@@ -16629,6 +16586,10 @@ footer .col-md-6 {
   -ms-flex-align: center;
   align-items: center;
   height: 60px; }
+  @media screen and (max-width: 992px) {
+    footer .col-md-3,
+    footer .col-md-6 {
+      height: 30px; } }
 
 .footer__left,
 .footer__right {
@@ -16682,7 +16643,7 @@ footer .col-md-6 {
   bottom: 0;
   border-bottom: 60px solid #141414;
   border-left: 30px solid transparent; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .footer__left:after {
       border: none; } }
 
@@ -16693,6 +16654,6 @@ footer .col-md-6 {
   top: 0;
   border-top: 60px solid #141414;
   border-right: 30px solid transparent; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .footer__right:after {
       border: none; } }

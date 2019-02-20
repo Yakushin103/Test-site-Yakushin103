@@ -3,30 +3,11 @@
   background: #111;
 }
 
-.expert h2,
-.expert h4{
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  @include laptop{
-    font-size: 20px;
-  }
-}
-
 .expert h4{
   font-size: 26px;
   @include laptop{
     font-size: 20px;
   }
-}
-
-.expert p{
-  font-size: 14px;
-  color: #fff;
 }
 
 .expert_title{
@@ -55,9 +36,7 @@
   background: linear-gradient(45deg, #e07627, #d8be15);
 
   h4{
-    background: #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #fff;
   }
 
   .line{

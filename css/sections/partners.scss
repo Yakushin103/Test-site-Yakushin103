@@ -5,27 +5,6 @@
   @include laptop{
     padding: 50px 0;
   }
-  p{
-    color: #fff;
-    font-size: 14px;
-    @include laptop{
-      font-size: 10px;
-    }
-  }
-}
-
-.partners h2{
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  @include laptop{
-    font-size: 20px;
-  }
 }
 
 .partners__title{

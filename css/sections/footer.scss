@@ -2,12 +2,8 @@ footer{
   width: 100%;
   background: #141414;
   p{
-    font-size: 14px;
     color: #797979;
     margin-bottom: 0;
-    @include laptop{
-      font-size: 10px;
-    }
   }
 }
 
@@ -17,6 +13,9 @@ footer .col-md-6{
   justify-content: center;
   align-items: center;
   height: 60px;
+  @include laptop{
+    height: 30px;
+  }
 }
 
 .footer__left,
@@ -70,7 +69,7 @@ footer .col-md-6{
 
     border-bottom: 60px solid #141414;
     border-left: 30px solid transparent;
-    @include tablets {
+    @include laptop {
       border: none;
     }
   }
@@ -86,7 +85,7 @@ footer .col-md-6{
 
     border-top: 60px solid #141414;
     border-right: 30px solid transparent;
-    @include tablets {
+    @include laptop {
       border: none;
     }
   }

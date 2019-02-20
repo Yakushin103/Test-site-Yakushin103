@@ -2,24 +2,8 @@
   width: 100%;
   background: #111;
   padding: 100px 0;
-  color: #fff;
   @include laptop{
     padding: 50px 0;
-  }
-}
-
-.news h2,
-.news__card__content h6{
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  @include laptop{
-    font-size: 20px;
   }
 }
 
@@ -46,9 +30,13 @@
 .news .carousel-control-prev{
   left: 85%;
   top: -10%;
+  @include laptop{
+    left: 60%;
+  }
 }
 
 .news__card{
+  height: 100%;
   width: calc(33% - 30px);
   margin: 0 15px;
   display: flex;
@@ -95,13 +83,6 @@
 
   @include laptop{
     padding: 20px;
-  }
-
-  p{
-    font-size: 14px;
-    @include laptop{
-      font-size: 10px;
-    }
   }
 }
 
@@ -160,8 +141,8 @@
   justify-content: center;
   align-items: center;
   p{
+    font-family: 'Lato-Black';
     font-size: 18px;
-    font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     padding: 0;

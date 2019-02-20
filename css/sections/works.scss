@@ -2,8 +2,6 @@
   width: 100%;
   padding-top: 100px;
   background: #111;
-  color: #fff;
-  font-size: 14px;
 
   .col-8{
     display: flex;
@@ -14,21 +12,6 @@
   @include laptop{
     font-size: 10px;
     padding-top: 50px;
-  }
-}
-
-.works h2{
-  font-size: 30px;
-  font-family: "Raleway-ExtraBold";
-  text-transform: capitalize;
-  background: linear-gradient(90deg, #e07627, #d8be15);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px;
-
-  @include laptop{
-    font-size: 20px;
-    margin-bottom: 10px;
   }
 }
 
@@ -69,9 +52,10 @@
     margin-bottom: 15px;
   }
   h4{
-    font-family: "Raleway";
-    font-weight: bold;
+    font-family: "Raleway-Bold";
     font-size: 18px;
+    background: none;
+    -webkit-text-fill-color: #fff;
     text-transform: capitalize;
 
     @include laptop{
