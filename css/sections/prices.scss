@@ -1,0 +1,58 @@
+.prices{
+  width: 100%;
+  padding: 100px 0;
+  background: #181818;
+  color: #6a6a6a;
+  @include laptop{
+    padding: 50px 0;
+  }
+  p{
+    font-size: 14px;
+    color: #6a6a6a;
+    @include laptop{
+      font-size: 10px;
+    }
+  }
+}
+
+.prices h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include laptop{
+    font-size: 20px;
+  }
+}
+
+.prices__title{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+thead{
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  color: #fff;
+}
+
+tbody{
+  background: #252525;
+}
+
+tbody img{
+  padding-right: 10px;
+}
+
+.prices_top{
+  color: #44b02c;
+}
+.prices_bottom{
+  color: #f00;
+}

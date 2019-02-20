@@ -1,0 +1,135 @@
+.comment{
+  width: 100%;
+  background: #181818;
+  padding: 100px 0;
+  font-size: 14px;
+  color: #fff;
+
+  @include laptop{
+    padding: 50px 0;
+    font-size: 10px;
+  }
+}
+
+.comment h2,
+.comment__text h4{
+  font-size: 30px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+
+  @include laptop{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.comment__link a{
+  padding-right: 10px;
+
+  i{
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.comment button{
+  margin-right: 30px;
+
+  @include laptop{
+    margin-bottom: 30px;
+  }
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.comment .carousel{
+  background: #252525;
+  padding: 30px;
+}
+
+.comment__text h4{
+  font-size: 20px;
+  @include laptop{
+    font-size: 16px;
+  }
+}
+
+.comment__text p{
+  font-size: 18px;
+  font-family: 'Lato';
+  font-weight: hairline;
+	font-style: italic;
+  @include laptop{
+    font-size: 16px;
+  }
+}
+
+.comment__pic{
+  margin-top: 30px;
+  align-items: center;
+
+  img{
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight: regular;
+  	font-style: normal;
+
+    a{
+      background: linear-gradient(90deg, #e07627, #d8be15);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.comment .carousel-control-prev,
+.comment .carousel-control-next{
+  height: 35px;
+  width: 66px;
+  border-radius: 50px;
+  background: #282828;
+  border: 1px solid #383838;
+}
+
+.comment .carousel-control-next:hover,
+.comment .carousel-control-prev:hover{
+  background: linear-gradient( 90deg, #e07627, #d8be15);
+  justify-content: center;
+  padding-left: 0;
+}
+
+.comment .carousel-control-next{
+  right: 30px;
+  top: 30px;
+}
+.comment .carousel-control-prev{
+  left: 350px;
+  top: 30px;
+  @include desktop{
+    left: 280px;
+  }
+  @include laptop{
+    left: 160px;
+  }
+  @include tablets{
+    left: 320px;
+  }
+  @include phones{
+    left: 160px;
+  }
+}

@@ -1,0 +1,195 @@
+.navbar{
+  padding: 0;
+  font-family: 'Lato';
+  font-weight: regular;
+}
+
+.navbar-nav{
+  flex-direction: row;
+}
+
+.nav__content{
+  height: 100%;
+  background: #141411;
+  justify-content: center;
+
+  & p{
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    margin-right: 2em;
+    @include desktop {
+      font-size: 10px;
+    }
+    @include laptop {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  & a{
+    font-size: 14px;
+    color: #878787;
+    text-transform: capitalize;
+    @include desktop {
+      font-size: 10px;
+    }
+
+    & span{
+      color: #d7bf15;
+    }
+  }
+}
+
+.nav__left ul, .nav__right ul{
+  align-items: center;
+  @include tablets {
+    justify-content: center;
+  }
+}
+
+.nav__left span, .nav__right span{
+  height: 15px;
+  border-right: 1px solid #8f8f8f;
+}
+
+
+
+.nav__left, .nav__right{
+  background: #1e1e1e;
+  @include tablets {
+    text-align: center;
+  }
+
+  & a{
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: regular;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: 0.5s;
+    @include desktop{
+      font-size: 10px;
+    }
+
+    &:hover{
+      color: #fff;
+    }
+  }
+}
+
+.nav__left{
+  &:after {
+    content: '';
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    border-bottom: 80px solid #141414;
+    border-left: 30px solid transparent;
+    @include tablets {
+      border: none;
+    }
+  }
+}
+
+.nav__right{
+  &:after {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    top: -40px;
+
+    border-top: 80px solid #141414;
+    border-right: 30px solid transparent;
+    @include tablets {
+      border: none;
+    }
+  }
+}
+
+.nav__main{
+  height: 100px;
+  background: #111111;
+  margin: auto auto;
+
+  & .row{
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    @include tablets{
+      justify-content: center;
+    }
+  }
+}
+
+.navbar-brand img{
+  width: 180px;
+  height: 58px;
+  @include laptop{
+    width: 140px;
+    height: 45px;
+  }
+  @include tablets{
+    width: 100px;
+    height: 35px;
+  }
+}
+
+.nav__main ul li button{
+  font-size: 14px;
+  text-transform: capitalize;
+  @include laptop{
+    font-size: 10px;
+  }
+}
+
+.nav__main ul li a{
+  font-size: 14px;
+  color: #878787;
+  text-transform: capitalize;
+  margin: 0 10px;
+  transition: 0.5s;
+  @include laptop{
+    font-size: 10px;
+  }
+
+  &:hover{
+    color: #d8be15;
+  }
+
+  & i{
+    font-size: 20px;
+    background: linear-gradient(45deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+    @include laptop{
+      font-size: 16px;
+    }
+
+    &:hover{
+      background: linear-gradient(170deg, #d8be15, #e07627);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+
+}
+
+.btn-primary{
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(70deg, #e07627, #d8be15);
+  transition: 0.5s;
+
+  &:hover{
+    background: linear-gradient(170deg, #d8be15, #e07627);
+  }
+}

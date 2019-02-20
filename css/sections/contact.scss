@@ -1,0 +1,153 @@
+.contact{
+  width: 100%;
+  background: #0e0e0e;
+  padding: 100px 0;
+  @include laptop{
+    padding: 50px 0;
+  }
+  .col-md-4{
+    padding-right: 50px;
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+}
+
+.contact__text{
+  width: 100%;
+  border-bottom: 1px solid #272727;
+  padding-bottom: 30px;
+  img{
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 14px;
+    color: #747474;
+    margin-bottom: 30px;
+    @include laptop{
+      font-size: 10px;
+    }
+  }
+}
+
+.contact__text a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.contact__text a i{
+  padding-left: 10px;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact__text a h6{
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+  @include laptop{
+    font-size: 10px;
+  }
+}
+
+.contact__social{
+  padding: 25px 0;
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    background: #1a1a1a;
+    transition: 0.5s all;
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+    i{
+      color: #747474;
+    }
+    &:hover{
+      background: linear-gradient(90deg, #e07627, #d8be15);
+      i{
+        color: #fff;
+      }
+    }
+  }
+}
+
+.contact h4{
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include laptop{
+    font-size: 20px;
+  }
+}
+
+.contact__updates{
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #272727;
+  &:last-child{
+    margin-top: 30px;
+    border: none;
+  }
+  img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  h5{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  p{
+    color: #747474;
+    font-size: 14px;
+    margin-bottom: 0;
+    span{
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #e07627, #d8be15);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @include laptop{
+      font-size: 10px;
+    }
+  }
+}
+
+.contact__link a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #747474;
+  margin-bottom: 15px;
+  transition: 0.5s all;
+  &:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  p{
+    text-transform: capitalize;
+    margin: 0;
+  }
+  i{
+    margin-right: 10px;
+  }
+}

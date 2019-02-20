@@ -1,0 +1,30 @@
+
+
+// layout
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/bootstrap.min";
+@import "_misc/normalize";
+@import "sections/animate";
+
+
+// sections
+@import "sections/nav";
+@import "sections/header";
+@import "sections/advantage";
+@import "sections/buy";
+@import "sections/exchange";
+@import "sections/calculator";
+@import "sections/comment";
+@import "sections/works";
+@import "sections/works__button";
+@import "sections/wallet";
+@import "sections/exchange_value";
+@import "sections/expert";
+@import "sections/question";
+@import "sections/prices";
+@import "sections/news";
+@import "sections/prize";
+@import "sections/partners";
+@import "sections/contact";
+@import "sections/footer";

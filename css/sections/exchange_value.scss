@@ -1,0 +1,23 @@
+.exchange__title_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  width: 100%;
+  background: linear-gradient(45deg, #e07627, #d8be15);
+  transform: scale(1, 1.5);
+
+  @include laptop{
+    padding: 0;
+  }
+  &:before {
+    content: '';
+
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+
+    border-bottom: 100px solid transparent;
+    border-right: 50px solid #e07627;
+    }
+}

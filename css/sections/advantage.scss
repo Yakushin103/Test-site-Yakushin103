@@ -1,0 +1,73 @@
+.advantage{
+  width: 100%;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  color: #fff;
+
+  .row{
+    width: calc(100% - 20px);
+    padding: 10px;
+    justify-content: center;
+  }
+
+  @include laptop{
+    font-size: 10px;
+  }
+}
+
+.card{
+  width: calc(20% - 10px);
+  margin-right: 10px;
+  border: 1px solid #1b1b1b;
+  background: transparent;
+  &:last-child{
+    margin-right: 0;
+  }
+
+  @include laptop{
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+
+  @include desktop{
+    padding: 20px;
+  }
+  @include laptop{
+    padding: 10px;
+  }
+
+  h4{
+    font-size: 16px;
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    @include laptop{
+      font-size: 12px;
+    }
+  }
+}
+
+//Эффект при наведение на блоки
+.card-body:hover{
+  background: linear-gradient(0deg, #e07627, #d8be15);
+
+  h4{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

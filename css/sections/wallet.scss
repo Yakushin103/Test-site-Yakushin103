@@ -1,0 +1,141 @@
+.wallet{
+  width: 100%;
+  background: #111;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+  .col-md-6:last-child{
+    border-left: 1px solid transparent;
+    border-image: linear-gradient(90deg, #e07627, #d8be15);
+    border-image-slice: 1;
+
+    @include laptop{
+      border-left: 0;
+    }
+  }
+}
+
+.wallet__pic{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.wallet__content{
+
+  position: relative;
+  padding-top: 145px;
+  padding-right: 100px;
+
+  .line{
+    margin-top: 20px;
+  }
+
+  p{
+    font-size: 14px;
+    color: #f4f4f4;
+  }
+
+  i{
+    font-size: 40px;
+    color: #b5b5b5;
+    margin-right: 25px;
+  }
+
+  button{
+    margin-top: 30px;
+    text-transform: capitalize;
+  }
+}
+
+
+.wallet__content h4{
+  font-size: 30px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include laptop{
+    font-size: 20px;
+  }
+}
+
+.ring__bottom{
+  position: absolute;
+  z-index: 1;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient( 90deg, #e07627, #d8be15);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+
+  @include laptop{
+    display: none;
+  }
+
+  &:hover{
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    i{
+      font-size: 20px;
+    }
+  }
+
+  i{
+    color: #fff;
+    font-size: 0;
+    margin-right: 0;
+    transition: .5s;
+  }
+}
+
+.wallet__content_right{
+  padding-right: 50px;
+  padding-left: 80px;
+
+  .ring__bottom{
+    left: -10px;
+    &:hover{
+      left: -20px;
+    }
+  }
+}
+
+.wallet__pic_left{
+  margin-top: 70px;
+}
+
+.wallet__end{
+  margin-top: 30px;
+
+  button{
+    text-transform: capitalize;
+  }
+}
+
+.wallet__content,
+.wallet__pic,
+.wallet__end{
+  opacity: 0;
+  &.active{
+    opacity: 1;
+    animation-name: slide__top;
+    -webkit-animation-name: slide__top;
+
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+  }
+}

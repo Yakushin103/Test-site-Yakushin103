@@ -1,0 +1,75 @@
+.prize{
+  background: #181818;
+
+  .list-group-item{
+    background: transparent;
+    border: none;
+  }
+}
+
+.prize__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(45deg, #e07627, #d8be15);
+  transform: scale(1, 1.5);
+
+  h4{
+    color: #fff;
+  }
+
+  &:before {
+    content: '';
+
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+
+    border-bottom: 67px solid transparent;
+    border-left: 50px solid #d8be15;
+    }
+    @include laptop{
+      padding: 0;
+      transform: scale(1, 1);
+      &:before{
+        border: none;
+      }
+    }
+}
+
+.prize .list-group{
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prize__free{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img{
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  h5{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    span{
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    @include laptop{
+      font-size: 20px;
+    }
+  }
+}
+
+.prize__input input{
+  background: transparent;
+  border: none;
+}

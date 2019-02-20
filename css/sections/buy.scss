@@ -1,0 +1,80 @@
+.buy{
+  width: 100%;
+  background: #111;
+  padding: 100px 0;
+  color: #fff;
+  font-size: 14px;
+
+  img{
+    margin-bottom: 30px;
+  }
+  p{
+    margin-bottom: 30px;
+
+    @include laptop{
+      font-size: 10px;
+    }
+  }
+  h3{
+    font-family: "Raleway-ExtraBold";
+    font-weight: normal;
+  	font-style: normal;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @include laptop{
+      font-size: 20px;
+    }
+  }
+  h4{
+    font-size: 16px;
+    margin-bottom: 25px;
+    @include laptop{
+      font-size: 12px;
+    }
+  }
+  .btn{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+.line{
+  width: 40px;
+  height: 1px;
+  margin-bottom: 25px;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(90deg, #e07627, #d8be15);
+  border-image-slice: 1;
+}
+
+.number__vertical{
+  position: relative;
+  transform: rotate(270deg);
+  transform-origin: left 20px top 0;
+  float: left;
+
+  & span{
+    font-size: 40px;
+    font-family: "Lato";
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+}
+
+.buy__number h3{
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+
+.line_small{
+  margin-bottom: 13px;
+  margin-left: -10px;
+}

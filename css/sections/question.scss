@@ -1,0 +1,117 @@
+.question{
+  width: 100%;
+  background: #323232;
+  padding: 100px 0;
+  color: #fff;
+  font-size: 14px;
+
+  @include laptop{
+    padding: 50px 0;
+    font-size: 10px;
+  }
+}
+
+.question{
+  .col-md-6{
+    flex: 0 0 calc(50% - 30px);
+    margin: 30px 15px;
+    @include laptop{
+      flex: 0 0 calc(100% - 30px);
+      margin: 30px 15px;
+    }
+  }
+}
+
+.question h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Raleway-ExtraBold";
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #e07627, #d8be15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include laptop{
+    font-size: 20px;
+  }
+}
+
+.input-group-text{
+  background: #1b1b1b;
+  border: none;
+  i{
+    background: linear-gradient(90deg, #e07627, #d8be15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.question input,
+.question textarea{
+  background: #1b1b1b;
+  border: none;
+  border-radius: 0;
+  &:focus{
+    background: #1b1b1b;
+  }
+}
+
+.question input::-webkit-input-placeholder,
+.question textarea::-webkit-input-placeholder{
+  text-transform: capitalize;
+}
+
+.form-row{
+  margin-bottom: 30px;
+}
+
+.question__text{
+  align-items: flex-start;
+  i{
+    padding-top: 5px;
+  }
+}
+
+.question .card{
+  width: 100%;
+  margin-right: 0;
+  border: 2px solid #5b5b5b;
+  border-bottom: 2px solid #5b5b5b!important;
+  background: #3a3a3a;
+  margin-bottom: 20px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.card-header{
+  border: none;
+}
+
+.question .card-body{
+  background: #3a3a3a;
+  text-align: left;
+  padding: 10px 20px;
+  p{
+    color: #727272;
+  }
+}
+
+.card-header a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-transform: capitalize;
+
+  i{
+  }
+  &:hover{
+    color: #fff;
+  }
+  &:focus{
+    border: none;
+  }
+}

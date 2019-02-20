@@ -1,0 +1,36 @@
+.works__button{
+  width: 100%;
+  background: #323232;
+  padding-top: 250px;
+}
+
+.works__button button{
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.ring{
+  width: 78px;
+  height: 78px;
+  margin-bottom: -39px;
+  border: 10px solid #111;
+  border-radius: 50%;
+  background: linear-gradient( 90deg, #e07627, #d8be15);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+
+  &:hover{
+    border: none;
+  }
+
+  i{
+    color: #fff;
+  }
+}
